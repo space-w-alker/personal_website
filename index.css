@@ -45,6 +45,7 @@
 #profileImage{
     position: relative;
     top: -380px;
+    left:9%;
     z-index: 1;
 }
 
@@ -61,8 +62,8 @@
     background-color: white;
     position: relative;
     top: +150px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 0%;
+    margin-right: 2%;
     border-radius: 10px;
     border-bottom-style: solid;
     border-right-style: solid;
@@ -100,9 +101,10 @@ h1{
 .update{
     background-color: white;
     position: relative;
+    top:-50px;
     margin-bottom: 2%;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
     border-radius: 10px;
     border-bottom-style: solid;
     border-right-style: solid;
@@ -112,24 +114,20 @@ h1{
     border-bottom-width: 5px;
     padding: 50px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .sideBar{
-    min-height: 500px;
-    max-height: 510px;
-    min-width:250px;
-    max-width: 260px;
     background: white;
+    padding:8px;
     border-style: solid;
-    border-color: aqua;
     border-width: 1px;
-    border-radius: 4px;
+    border-color: aqua;
+    border-radius: 5px;
 }
 #homeSideBar{
-    position:relative;
-    top:-1000px;
+    padding-left: 20px;
 }
 body{
 
