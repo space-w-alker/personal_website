@@ -20,6 +20,12 @@
     width: 25%;
 }
 
+#mainPanel table tr td a{
+    padding:15px;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
 #mainPanel table tr td a:link{
     color: white;
     text-decoration-style: none;
@@ -29,8 +35,7 @@
 
 #mainPanel table tr td a:hover{
     color: #ffffff;
-    font-size: 20px;
-
+    background-color: rgba(0, 0, 0, 0.048);
 }
 
 #mainPanel table tr td a:visited{
@@ -109,6 +114,22 @@ h1{
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sideBar{
+    min-height: 500px;
+    max-height: 510px;
+    min-width:250px;
+    max-width: 260px;
+    background: white;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+    border-radius: 4px;
+}
+#homeSideBar{
+    position:relative;
+    top:-1000px;
 }
 body{
 
