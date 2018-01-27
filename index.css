@@ -1,0 +1,91 @@
+#mainPanel{
+    background-color:rgb(96, 244, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    height: 50px;
+    min-width: 90%;
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color:rgba(0, 0, 0, 0.116);
+}
+
+#mainPanel table tr td{
+    text-align: center;
+    color: white;
+    width: 25%;
+}
+
+#mainPanel table tr td a:link{
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
+
+#mainPanel table tr td a:hover{
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+#mainPanel table tr td a:visited{
+    color: white;
+}
+
+#profileImage{
+    position: relative;
+    top: -300px;
+    z-index: 1;
+}
+
+#profileImage table tr td{
+    text-align: center;
+}
+
+#mainImage{
+    position: relative;
+}
+
+#infoPanel{
+    z-index: 0;
+    background-color: white;
+    position: relative;
+    top: +150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color:rgba(0, 0, 0, 0.295);
+    border-bottom-color: rgba(0, 0, 0, 0.185);
+    border-bottom-width: 5px;
+    padding: 50px;
+    padding-top: 100px;
+}
+ #infoPanel table tr td{
+    text-align: left;
+ }
+
+ .specialText{
+     font-family: fantasy;
+
+ }
+.quote{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quoteSmall{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+body{
+
+    background-image: url(images/background.png ) ;
+}
+
+
