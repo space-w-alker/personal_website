@@ -1,0 +1,49 @@
+.postPanel{
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 100px;
+    padding-left:80px;
+    padding-right:80px;
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.update img{
+    width:100%;
+    max-width: 250px;
+}
+
+.update i{
+    font-size: 10px;
+}
+#fourth_dimension{
+    margin-top: 10%
+}
+
+#dimensionTable{
+    width: 100%;
+    border-collapse: collapse;
+    empty-cells: show;
+    text-align: center;
+    font-family: cursive;
+    margin: 30px;
+}
+
+#dimensionTable th{
+    background: aqua;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: rgba(0, 0, 0, 0.116);
+}
+
+#dimensionTable td{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+#dimensionTable tr:hover{
+    background-color: rgba(0, 255, 255, 0.233);
+}
